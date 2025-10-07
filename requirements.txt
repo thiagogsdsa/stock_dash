@@ -2,5 +2,5 @@ streamlit==1.50.0
 pandas==2.3.3
 numpy==2.0.1
 matplotlib==3.10.6
-mplfinance==0.12.11b1  
+mplfinance==0.12.10b0
 yfinance==0.2.66
