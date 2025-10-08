@@ -307,3 +307,46 @@ col1, col2, col3 = st.columns(3)
 col1.metric("Final Portfolio Value", f"${df_dca['Total Value'].iloc[-1]:,.2f}")
 col2.metric("Total Invested", f"${df_dca['Invested'].iloc[-1]:,.2f}")
 col3.metric("Total Return", f"{df_dca['Return %'].iloc[-1]:.2f}%")
+
+st.markdown(
+    """
+    ---
+    <div style="display: flex; justify-content: center; margin-top: 10px;">
+      <table style="border-collapse: collapse; text-align: left;">
+        <tr>
+          <td style="padding: 4px 12px;"><b>LinkedIn:</b></td>
+          <td style="padding: 4px 12px;">
+            <a href="https://www.linkedin.com/in/thiagogsdsa/" target="_blank" style="text-decoration:none; color:#4A90E2;">
+              Thiago Guimarães
+            </a>
+          </td>
+        </tr>
+        <tr>
+          <td style="padding: 4px 12px;"><b>GitHub:</b></td>
+          <td style="padding: 4px 12px;">
+            <a href="https://github.com/thiagogsdsa" target="_blank" style="text-decoration:none; color:#4A90E2;">
+              github.com/thiagogsdsa
+            </a>
+          </td>
+        </tr>
+        <tr>
+          <td style="padding: 4px 12px;"><b>Medium:</b></td>
+          <td style="padding: 4px 12px;">
+            <a href="https://medium.com/@thiago.guimaraes.sto" target="_blank" style="text-decoration:none; color:#4A90E2;">
+              @thiago.guimaraes.sto
+            </a>
+          </td>
+        </tr>
+        <tr>
+          <td style="padding: 4px 12px;"><b>E-mail:</b></td>
+          <td style="padding: 4px 12px;">
+            <a href="mailto:thiago.guimaraes.sto@gmail.com" style="text-decoration:none; color:#4A90E2;">
+              thiago.guimaraes.sto@gmail.com
+            </a>
+          </td>
+        </tr>
+      </table>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
